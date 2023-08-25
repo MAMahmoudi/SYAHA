@@ -1,0 +1,78 @@
+.Nav_Bar_Items {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  width: 95%;
+  height: 80px;
+  border-radius: 13px;
+}
+
+.Nav_Bar_Logo {
+  color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.Nav_Bar_Menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.Nav_Bar_Menu_Item {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.Nav_Bar_Menu_Item:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+  background-color: #01959a;
+}
+
+.Nav_Bar_Menu_Item i {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .Nav_Bar_Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+  }
+  .Nav_Bar_Menu_Item {
+    display: block;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  .Nav_Bar_Menu_Item:hover {
+    color: white;
+    transition: none;
+    border-radius: 4px;
+    background-color: #01959a;
+  }
+  .Nav_Bar_Items {
+    z-index: 99;
+  }
+}

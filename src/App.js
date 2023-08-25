@@ -6,7 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>SYAHA</h1>
+      <Router>
+        <Nav_Bar />
+      </Router>
     </div>
   );
 }

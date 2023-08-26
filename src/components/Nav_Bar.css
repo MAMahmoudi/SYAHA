@@ -1,4 +1,5 @@
 .Nav_Bar_Items {
+  background-color: #fff;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;

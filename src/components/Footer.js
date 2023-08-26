@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="Footer_Top">
         <div>
           <h1>سياحة</h1>
-          <p> :dddcmcmcmcmcmcmcm</p>
+          <p> نحن نقدم لكم أفضل الخدمات</p>
         </div>
         <div>
           <a href="https://www.facebook.com/">

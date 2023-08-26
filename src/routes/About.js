@@ -2,6 +2,7 @@ import Nav_Bar from "../components/Nav_Bar";
 import Hero from "../components/Hero";
 import About_Img from "../assets/Tlemcen.jpg";
 import Footer from "../components/Footer";
+import About_Us from "../components/About_Us";
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
         Btn_Class="Hide"
       />
       <h1>من نحن؟</h1>
+      <About_Us />
       <Footer />
     </>
   );

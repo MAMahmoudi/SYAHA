@@ -2,6 +2,7 @@ import Nav_Bar from "../components/Nav_Bar";
 import Hero from "../components/Hero";
 import Contact_Img from "../assets/Taghit.jpg";
 import Footer from "../components/Footer";
+import Contact_Us from "../components/Contact_Us";
 function Contact() {
   return (
     <>
@@ -12,7 +13,7 @@ function Contact() {
         title="مرحبا بكم في موقعنا"
         Btn_Class="Hide"
       />
-      <h1>إتصل بنا</h1>
+      <Contact_Us />
       <Footer />
     </>
   );

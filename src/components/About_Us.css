@@ -1,0 +1,20 @@
+.About_Us_Container {
+  margin: 4rem 6rem;
+  text-align: start;
+}
+
+.About_Us_Container h1 {
+  padding-bottom: 1rem;
+  direction: rtl;
+}
+
+.About_Us_Container p {
+  padding-bottom: 2rem;
+  direction: rtl;
+}
+
+@media screen and (max-width: 850px) {
+  .About_Us_Container {
+    margin: 4rem 2rem;
+  }
+}

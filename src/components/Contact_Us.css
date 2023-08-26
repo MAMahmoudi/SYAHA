@@ -1,0 +1,51 @@
+.Contact_Us_Container {
+  margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+
+.Contact_Us_Container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.Contact_Us_Container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3px;
+  border: 1px solid #2a2a2a;
+  direction: rtl;
+}
+
+.Contact_Us_Container textarea {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3px;
+  border: 1px solid #2a2a2a;
+  direction: rtl;
+}
+
+.Contact_Us_Container button {
+  width: 50%;
+  margin: auto;
+  height: 3rem;
+  border-radius: 0.3px;
+  border: 1px solid #2a2a2a;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .Contact_Us_Container {
+    margin: 4rem 2rem;
+  }
+  .Contact_Us_Container form {
+    padding-top: 2rem;
+    width: 80%;
+  }
+}

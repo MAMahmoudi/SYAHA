@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Nav_Bar from "../components/Nav_Bar";
 import Home_Img from "../assets/Oran.jpg";
+import Destination from "../components/Destination";
 function Home() {
   return (
     <>
@@ -13,9 +14,8 @@ function Home() {
         Btn_Text="تواصل معنا"
         url="/"
         Btn_Class="Show"
-        
       />
-      <h1>الرئيسية</h1>
+      <Destination />
     </>
   );
 }

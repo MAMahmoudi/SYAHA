@@ -1,0 +1,70 @@
+.Footer {
+  padding: 4rem 6rem;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.Footer_Top {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.Footer_Top h1 {
+  direction: rtl;
+}
+
+.Footer_Top i {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.Footer_Top i:hover {
+  color: #01959a;
+  cursor: pointer;
+}
+
+.Footer_Buttom {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.Footer_Buttom div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer_Buttom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+  direction: rtl;
+}
+
+.Footer_Buttom a {
+  text-decoration: none;
+  color: #fafafa;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+  direction: rtl;
+}
+
+@media screen and (max-width: 850px) {
+  .Footer {
+    padding: 4rem 2rem;
+  }
+
+  .Footer i {
+    margin: 1rem 1rem 0 0;
+  }
+
+  .Footer_Buttom div {
+    width: 50%;
+  }
+}

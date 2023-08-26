@@ -3,6 +3,7 @@ import Nav_Bar from "../components/Nav_Bar";
 import Home_Img from "../assets/Oran.jpg";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <Footer />
     </>
   );
 }

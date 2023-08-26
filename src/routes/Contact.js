@@ -1,6 +1,7 @@
 import Nav_Bar from "../components/Nav_Bar";
 import Hero from "../components/Hero";
 import Contact_Img from "../assets/Taghit.jpg";
+import Footer from "../components/Footer";
 function Contact() {
   return (
     <>
@@ -12,6 +13,7 @@ function Contact() {
         Btn_Class="Hide"
       />
       <h1>إتصل بنا</h1>
+      <Footer />
     </>
   );
 }

@@ -17,6 +17,14 @@
   margin-top: 4.5rem;
 }
 
+.Destination_Item_Reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
 .Destination_Text {
   width: 45%;
   text-align: start;
@@ -24,7 +32,13 @@
 }
 
 .Destination_Text h2 {
+  direction: rtl;
   padding-bottom: 1rem;
+}
+
+.Destination_Text p {
+  direction: rtl;
+  text-align: justify;
 }
 
 .Destination_Image {
@@ -52,6 +66,18 @@
 @media screen and (max-width: 850px) {
   .Destination {
     margin: 4rem 2rem;
+  }
+
+  .Destination_Item {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .Destination_Item_Reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
   }
 
   .Destination_Title {

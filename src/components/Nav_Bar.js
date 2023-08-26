@@ -12,15 +12,18 @@ class Nav_Bar extends React.Component {
   render() {
     return (
       <nav className="Nav_Bar_Items">
+        <h1 className="Nav_Bar_Logo">سياحة</h1>
         <div className="Menu_Icon" onClick={this.handle_click}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
           ></i>
         </div>
 
-        <h1 className="Nav_Bar_Logo">سياحة</h1>
-
-        <ul className="Nav_Bar_Menu">
+        <ul
+          className={
+            this.state.clicked ? "Nav_Bar_Menu active" : "Nav_Bar_Menu"
+          }
+        >
           {Menu_Items.map((item, index) => {
             return (
               <li key={index}>
